@@ -17,9 +17,9 @@ int main()
 	(firstString.compareStrings(secondString)==1)? std::cout << "True\n\n":std::cout<<"False\n\n";
 	std::cout << "Constant C Style String: " << firstString.constantCStyleString() << "\n\n";
 	std::cout << "Is sub string found: ";
-	(firstString.subString("ee") == 1) ? std::cout << "True\n\n" : std::cout << "False\n\n";
+	(firstString.subString("move south") == 1) ? std::cout << "True\n\n" : std::cout << "False\n\n";
 	std::cout << "Is sub string found starting at index " << index << ": ";
-	(firstString.subStringAtIndex(index, "ee")==1) ? std::cout << "True\n\n":std::cout<<"False\n\n";
+	(firstString.subStringAtIndex(index, "south")==1) ? std::cout << "True\n\n":std::cout<<"False\n\n";
 	std::cout << "Replace: " << firstString.replace("a", "A") << "\n\n";
 	std::cout << "Append: " << firstString.append(" <- Back") << "\n\n";
 	std::cout << "Prepend: " <<	firstString.prepend("Front -> ") << "\n\n";
